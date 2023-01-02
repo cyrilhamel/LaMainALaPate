@@ -1,6 +1,6 @@
-# La-main-a-la-pate
+# La main à la pate (Truc de ferme)
 un menu barre contenant:
-Traiteur, Patisserie, “Diététique”, Formation Commandes, Contact (peut etre dans le footer ou les 2).
+Traiteur, Patisserie, Formation Commandes, Contact (peut etre dans le footer ou les 2).
 
 L'index contiendra une présentation de l'entreprise avec différents articles de mises en situations des activités proposés.
 
@@ -10,8 +10,7 @@ une fléche en bas de page fera revenir au header pour permettre aux utilisateur
 Il faut que le site soit le plus intuitif possible et si possible en 2 langues pour la saison touristique. soit doubler le site FR/EN
 soit traduire les articles au risque de plomber la page, soit le haut de page en fr avec un retour en haut au début de l'anglais et le bas de page en anglais avec un retour en haut pour les rubriques qui auront le nom français et anglais pour le coup.
 
-La rubrique diététique est encore en cours de réflexion pour le nom et le contenu.
-
 Les autres rubriques contiendrons des recettes, des mises en situations, et des articles plus précis que sur la page d'acceuil pour la provenance des ingrédients par exemple.
 
-Objectifs, construire la structure du site avec un header et un footer fonctionnel  d'ici fin Novembre Boutons originaux.
+Objectifs, Site identitaire, 
+
