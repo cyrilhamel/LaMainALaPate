@@ -1,3 +1,4 @@
+//navBar canvas
 let canvas=document.getElementById("c1");
 let ctx=canvas.getContext("2d");
 
@@ -69,26 +70,22 @@ ctx.closePath();
 ctx.stroke();
 ctx.fill();
 
-ctx.font = "50px serif";
-ctx.fillStyle = "green";
+//texte dans les arcs de cercles
+
+//1formation
+ctx.font = "40px serif";
+ctx.fillStyle = "white";
 ctx.textAlign = "center";
-
-let string = "GeeksforGeeks";
-
-let angle = Math.PI * 0.6; // in radians
-let radius = 200;
-
-
-ctx.translate(300, 300);
-ctx.rotate(-1 * angle / 2);
-
+//texte
+let string = "Formations";
+//angle du texte
+let angle = Math.PI * -0.6;
+let radius = -180;
+//position
+ctx.translate(50, 40);
+//rotation gauche droite
+ctx.rotate(-1 * angle / 5);
 for (let i = 0; i < string.length; i++) {
-
-    /* It is worth noting that we are not
-        rotating the text,here the whole
-        context is being rotated and
-        translated, and the letters are just
-        filled in it. */
     ctx.rotate(angle / string.length);
     ctx.save();
     ctx.translate(0, -1 * radius);
