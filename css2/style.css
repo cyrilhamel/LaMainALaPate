@@ -1,5 +1,29 @@
-html{background-color: #E0AC21;}
+body{
+    background-color: #E0AC21;
+}
+
+div{background-color: #E0AC21;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
 header{background-color: #D75414;}
+
 img{text-align: center;}
+
 footer{background-color: #D75414;}
 
+#imgformat{width: 200px;
+height: 200px;
+border: solid burlywood;}
+
+p{height: 200px;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 25px;
+}
+
+.article{
+    width: 200px;
+    height: 200px;
+}
