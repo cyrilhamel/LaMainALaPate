@@ -1,29 +1,109 @@
-body{
+.parentCircle{
+    background: white;
+    margin: 0;
+    width: 300px;
+    height: 300px;
+}
+.circle1{
+    position: absolute;
+    z-index: 6;
+    background: #61130A;
+    border: solid 2px white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -75px;
+}
+.circle2{
+    position: absolute;
+    z-index: 5;
+    background: #A80000;
+    border: solid 2px white;
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+    margin: -100px;
+}
+.circle3{
+    position: absolute;
+    z-index: 4;
+    background: #BF2C0C;
+    border: solid 2px white;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: -125px;
+}
+.circle4{
+    position: absolute;
+    z-index: 3;
+    background: #D75414;
+    border: solid 2px white;
+    border-radius: 50%;
+    width: 425px;
+    height: 425px;
+    margin: -150px;
+}
+.circle5{
+    position: absolute;
+    z-index: 2;
+    background: #C02D0C;
+    border: solid 2px white;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin: -175px;
+}
+.circle6{
+    position: absolute;
+    z-index: 1;
+    background: #E0AC21;
+    border: solid 2px white;
+    border-radius: 50%;
+    width: 575px;
+    height: 575px;
+    margin: -200px;
+}
+
+
+
+
+body {
     background-color: #E0AC21;
 }
 
-div{background-color: #E0AC21;
-margin-top: 25px;
-margin-bottom: 25px;
+div {
+    background-color: #E0AC21;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-header{background-color: #D75414;}
+header {
+    background-color: #D75414;
+}
 
-img{text-align: center;}
+img {
+    text-align: center;
+}
 
-footer{background-color: #D75414;}
+footer {
+    background-color: #D75414;
+}
 
-#imgformat{width: 200px;
-height: 200px;
-border: solid burlywood;}
+#imgformat {
+    width: 200px;
+    height: 200px;
+    border: solid burlywood;
+}
 
-p{height: 200px;
+p {
+    height: 200px;
     padding: 5px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 25px;
 }
 
-.article{
+.article {
     width: 200px;
     height: 200px;
 }

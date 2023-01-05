@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css2/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formation</title>
+    <title>Formation</title>
 </head>
+
 <body>
-    <div>
-        <img id="imgformat" src="images/enAction.jpg" alt="cuisinier grill">
-        <p>Inscrivez vous à la prochaine session de formation en telechargeant et renvoyant le formulaire aux coordonnées indiquées.
-        </p>
-        <a href="documents/Formulaire d'inscription formation Main à La Pâte.pdf"download>telechargez le formulaire ici</a>
+    <header>
+        <div class="parentCircle">
+            <div class="circle1" onclick="maRedirection('index.html')">
+                <h1>La Main à la Pate</h1>
+            </div>
+            <div class="circle2" onclick="maRedirection('formation.html')">
+                <h4>Formations</h4>
+            </div>
+            <div class="circle3" onclick="maRedirection('commandes.html')">
+                <h4>Commandes</h4>
+            </div>
+            <div class="circle4" onclick="maRedirection('Produits.html')">
+                <h4>Produits</h4>
+            </div>
+            <div class="circle5" onclick="maRedirection('patisserie.html')">
+                <h4>Patisserie</h4>
+            </div>
+            <div class="circle6" onclick="maRedirection('cuisinierTraiteur.html')">
+                <h4>Cuisinier Traiteur</h4>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 text-center offset-lg-4"><img id="imgformat" src="images/enAction.jpg"
+                    alt="cuisinier grill">
+                <p>Inscrivez vous à la prochaine session de formation en telechargeant et renvoyant le formulaire aux
+                    coordonnées indiquées.</p>
+            </div>
+        </div>
+        <a href="documents/Formulaire d'inscription formation Main à La Pâte.pdf" download>telechargez le formulaire
+            ici</a>
     </div>
-    <footer><h4>contact</h4></footer>
+    <footer>
+        <h4>contact</h4>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js2/script.js"></script>
 </body>
+
 </html>
